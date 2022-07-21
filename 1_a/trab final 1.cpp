@@ -1,3 +1,8 @@
+/*
+ * Nome: João Pedro Rodrigues Freitas, 11316552
+ * Nome: Rafael Kuhn Takano, 11200459
+ */
+
 #include <iostream>
 #include <list>
 #include <vector>
@@ -18,9 +23,11 @@ public:
     };
     ~Vert() {        
     };        
+    // list = {0,1,2,3,4} list[i]
     void printAresta() {
         for (list<Vert *>::iterator it = this->adj.begin(); it != this->adj.end(); it++) {
             cout << this->VertId << "-" << (*it)->VertId << endl;
+            //this->adj[i] == *it;
         }
         cout << endl;
     }

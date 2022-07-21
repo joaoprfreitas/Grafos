@@ -1,3 +1,8 @@
+/*
+ * Nome: João Pedro Rodrigues Freitas, 11316552
+ * Nome: Rafael Kuhn Takano, 11200459
+ */
+
 #include <iostream>
 #include <list>
 #include <vector>
